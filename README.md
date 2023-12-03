@@ -6,4 +6,4 @@ This is a website made to show off some of my skills.
 - Kotlin
 
 ### My work
-- [DVD Kiosk App])https://github.com/tiredwork/dvd-kiosk-app) - Assignment 3 for Software Development Tools.
+- [DVD Kiosk App](https://github.com/tiredwork/dvd-kiosk-app) - Assignment 3 for Software Development Tools.
