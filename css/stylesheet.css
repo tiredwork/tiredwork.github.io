@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+.static {
+    width: 25%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.project {
+    border: 1px solid #dee2e6;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.project img {
+    width: 100%;
+    height: auto;
+    /* max-height: 200px; /* Size restriction */
+    object-fit: cover;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 10px;
+}
+.project-buttons {
+    margin-top: 10px;
+}
+
+.static img {
+    padding: 15px;
+}
+
+.content {
+    width: auto;
+    padding: 20px;
+    overflow-y: auto;
+}
+.page {
+    position: absolute;
+    width: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s;
+}
+.page.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.carousel.pointer-event {
+    width: 50%;
+  }
