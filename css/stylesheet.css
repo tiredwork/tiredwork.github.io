@@ -4,10 +4,14 @@ body {
     margin: 0;
 }
 .static {
+    position: fixed;
+    top: 0;
     width: 25%;
     background-color: #f8f9fa;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    overflow-y: auto;
 }
 .project {
     border: 1px solid #dee2e6;
@@ -33,8 +37,9 @@ body {
 }
 
 .content {
-    width: auto;
-    padding: 20px;
+    margin-left: 25%;  /* Offset the content to sit beside the sidebar */
+    padding: 20px;  /* Add some padding inside the content */
+    width: 75%;  /* Ensure content takes up the remaining space */
     overflow-y: auto;
 }
 .page {
